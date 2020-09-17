@@ -1,0 +1,26 @@
+{
+  "name": "goodpix-product-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrape.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "dotenv -e .env.development node scrape.js",
+    "start:dev": "npm run start",
+    "start:prod": "dotenv -e .env node scrape.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^4.4.0",
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cloudinary": "^1.23.0",
+    "dotenv": "^8.2.0",
+    "dotenv-cli": "^3.2.0",
+    "lodash": "^4.17.20",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.5"
+  }
+}
